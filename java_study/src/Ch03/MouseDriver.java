@@ -1,7 +1,7 @@
 package Ch03;
 
 //public이 붙은 클래스는 하나여야함
-class Mouse{
+class Mouses{
 	public String name;
 	public int age;
 	public int countOfTail;
@@ -13,7 +13,7 @@ class Mouse{
 
 public class MouseDriver{
 	public static void main(String[] args) {
-		Mouse mickey = new Mouse();
+		Mouses mickey = new Mouses();
 		
 		mickey.name = "미키";
 		mickey.age = 85;
